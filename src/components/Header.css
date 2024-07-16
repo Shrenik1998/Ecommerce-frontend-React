@@ -1,0 +1,26 @@
+.allCategories{
+    display: flex;
+    padding: 10px;
+    margin: 2px;
+    border: solid black 1px;
+    justify-content: space-around;
+    background-color: rgb(41, 126, 88);
+}
+
+.catogery{
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.catogery:hover{
+    background-color: white;
+    color: black;
+}
+
+.catogerySelected{
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+}
